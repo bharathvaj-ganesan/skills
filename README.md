@@ -38,4 +38,3 @@ npx skills remove pr-raise-review
 ## License
 
 Each skill keeps its own license in its folder.
-# skills
