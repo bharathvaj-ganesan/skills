@@ -7,6 +7,8 @@ A personal collection of agent skills kept in one place. Each skill lives under 
 | Skill | What it does |
 | --- | --- |
 | [pr-raise-review](skills/pr-raise-review) | Combines PR creation and PR review into one workflow. It can draft/create a high-quality PR summary from branch diff + checks, and review a PR with severity-ranked findings (and optionally post approve/comment/request-changes via `gh`). |
+| [visual-plan](skills/visual-plan) | Turns ordinary text plans into rich interactive visual plans with diagrams, file maps, annotated code, open questions, and optional UI/prototype review. |
+| [visual-recap](skills/visual-recap) | Turns a PR/branch/commit diff into an interactive visual recap with file maps, diagrams, API/schema summaries, annotated diffs, and focused review notes. |
 
 ## Use in your projects
 
@@ -18,6 +20,8 @@ npx skills add <your-github-username>/<this-repo> --list
 
 # install this skill
 npx skills add <your-github-username>/<this-repo> --skill pr-raise-review -y
+npx skills add <your-github-username>/<this-repo> --skill visual-plan -y
+npx skills add <your-github-username>/<this-repo> --skill visual-recap -y
 
 # update installed skills
 npx skills update -p -y
