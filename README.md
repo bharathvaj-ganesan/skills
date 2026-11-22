@@ -9,6 +9,7 @@ A personal collection of agent skills kept in one place. Each skill lives under 
 | [pr-raise-review](skills/pr-raise-review) | Combines PR creation and PR review into one workflow. It can draft/create a high-quality PR summary from branch diff + checks, and review a PR with severity-ranked findings (and optionally post approve/comment/request-changes via `gh`). |
 | [visual-plan](skills/visual-plan) | Turns ordinary text plans into rich interactive visual plans with diagrams, file maps, annotated code, open questions, and optional UI/prototype review. |
 | [visual-recap](skills/visual-recap) | Turns a PR/branch/commit diff into an interactive visual recap with file maps, diagrams, API/schema summaries, annotated diffs, and focused review notes. |
+| [Hallmark](https://www.usehallmark.com/) | Design skill for websites and new pages that helps coding agents create polished, distinctive interfaces. Install with `npx skills add nutlope/hallmark -g`. |
 
 ## Use in your projects
 
