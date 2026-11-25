@@ -7,6 +7,7 @@ A personal collection of agent skills kept in one place. Each skill lives under 
 | Skill | What it does |
 | --- | --- |
 | [pr-raise-review](skills/pr-raise-review) | Combines PR creation and PR review into one workflow. It can draft/create a high-quality PR summary from branch diff + checks, and review a PR with severity-ranked findings (and optionally post approve/comment/request-changes via `gh`). |
+| [resolve-pr-comments](skills/resolve-pr-comments) | Resolves (auto-closes) every unresolved review thread on a GitHub PR via `gh`, with dry-run, author and outdated filters, and optional minimizing of top-level conversation comments. |
 | [visual-plan](skills/visual-plan) | Turns ordinary text plans into rich interactive visual plans with diagrams, file maps, annotated code, open questions, and optional UI/prototype review. |
 | [visual-recap](skills/visual-recap) | Turns a PR/branch/commit diff into an interactive visual recap with file maps, diagrams, API/schema summaries, annotated diffs, and focused review notes. |
 | [Hallmark](https://www.usehallmark.com/) | Design skill for websites and new pages that helps coding agents create polished, distinctive interfaces. Install with `npx skills add nutlope/hallmark -g`. |
@@ -21,6 +22,7 @@ npx skills add <your-github-username>/<this-repo> --list
 
 # install this skill
 npx skills add <your-github-username>/<this-repo> --skill pr-raise-review -y
+npx skills add <your-github-username>/<this-repo> --skill resolve-pr-comments -y
 npx skills add <your-github-username>/<this-repo> --skill visual-plan -y
 npx skills add <your-github-username>/<this-repo> --skill visual-recap -y
 
